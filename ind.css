@@ -1,0 +1,37 @@
+body {
+  background-color: #5d5555;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar-light {
+  background-color: #756878;
+}
+
+.col-lg {
+  padding-bottom: 8px;
+}
+
+.row {
+  margin: 30px;
+}
+
+#more:hover+#more_text {
+  opacity: 1;
+}
+
+#more_text:hover {
+  opacity: 1;
+}
+
+#more_text {
+  position: absolute;
+  top: 40%;
+  width: 83%;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
+}
