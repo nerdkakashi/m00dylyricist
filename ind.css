@@ -35,3 +35,16 @@ body {
   transition: 0.5s;
   color: white;
 }
+
+.social {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.font {
+  font-size: 13px;
+}
+
+.video {
+  margin-bottom: 20px;
+}
